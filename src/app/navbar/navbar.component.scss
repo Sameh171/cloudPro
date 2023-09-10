@@ -1,0 +1,99 @@
+@import "../../styles.scss";
+.sec-height1 {
+  min-height: 100vh;
+}
+.sec-height2 {
+  min-height: 120vh;
+}
+.landing-img {
+  background-image: url(../../assets/images/image24.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.it-service {
+  background-image: url(../../assets/images/image31.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.it-service2 {
+  background-image: url(../../assets/images/image32.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.cloud-computing {
+  background-image: url(../../assets/images/image27.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.softwar-development {
+  background-image: url(../../assets/images/image28.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.contact-us {
+  background-image: url(../../assets/images/image29.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.bg {
+    nav {
+        a {
+          color: white !important;
+          font-family: "Myriad-Pro-Regular";
+          font-size: 20px;
+        }
+        border-bottom: 1px solid #fff;
+        min-height: 18vh;
+        @media screen and (max-width: 768px) {
+          border: 0;
+        }
+      }
+      
+
+   
+
+    #sec1 {
+      min-height: 82vh;
+      h3 {
+        color: white;
+        font-size: 65px;
+        font-family: "Myriad-Pro-Regular";
+        line-height: 60px !important;
+        @media screen and (max-width: 768px) {
+          font-size: 55px;
+          line-height: 65px !important;
+          text-align: center;
+        }
+      }
+      p {
+        font-family: "Myriad-Pro-Regular";
+        color: white;
+        font-size: 30px;
+        line-height: 50px !important;
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          text-align: center;
+          width: 100% !important;
+        }
+      }
+      .btn {
+        font-family: "Myriad-Pro-Regular";
+        font-size: 30px;
+        border-radius: 0;
+        color: #fff;
+        background-color: $primaryBtnColor1;
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }

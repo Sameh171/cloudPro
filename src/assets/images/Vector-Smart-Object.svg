@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354.969" height="386.663" viewBox="0 0 354.969 386.663">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="354.969" height="386.663" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(-226.515 -1135.668)" opacity="0.102">
+    <g id="Vector_Smart_Object-2" data-name="Vector Smart Object" transform="translate(226.515 1135.668)">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+          <path id="Path_167" data-name="Path 167" d="M348.247,224.7l-151.9,151.52A35.7,35.7,0,0,1,145.8,325.791L344.5,127.584a35.6,35.6,0,0,0,0-50.425l0,0a35.81,35.81,0,0,0-50.552,0L61.021,309.506A35.7,35.7,0,1,1,10.469,259.08L209.17,60.87a35.7,35.7,0,0,0-50.552-50.425L11.556,157.143" fill="#15b7ee"/>
+        </g>
+      </g>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" d="M372.315,1511.888a35.6,35.6,0,0,1,0-50.429l118.274-117.981-84.173-16.889,114.047-113.765a35.809,35.809,0,0,1,50.551,0l0,0a35.6,35.6,0,0,1,0,50.425l-80.427,80.227,84.173,16.889-151.9,151.52a35.811,35.811,0,0,1-50.552,0Zm-135.33-66.713a35.6,35.6,0,0,1,0-50.427l85.259-85.048-84.172-16.889,147.062-146.7a35.7,35.7,0,0,1,50.552,50.425L322.243,1309.7l84.173,16.889L287.536,1445.175a35.807,35.807,0,0,1-50.552,0Z" fill="#f7faff"/>
+  </g>
+</svg>

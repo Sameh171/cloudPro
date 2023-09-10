@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1969" height="1349" viewBox="0 0 1969 1349">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14_copy_2" data-name="Rectangle 14 copy 2" width="1969" height="1349" transform="translate(-42 1649)" fill="#f7faff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="crop" width="926" height="1009" transform="translate(1276.85)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_14_copy_2-2" data-name="Rectangle 14 copy 2" transform="translate(42 -1649)">
+    <rect id="Rectangle_14_copy_2-3" data-name="Rectangle 14 copy 2" width="1969" height="1349" transform="translate(-42 1649)" fill="#f7faff"/>
+    <g id="Clip" clip-path="url(#clip-path)">
+      <g id="Vector_Smart_Object_copy" data-name="Vector Smart Object copy" transform="translate(-294.85 1359)" opacity="0.439" clip-path="url(#clip-path-2)">
+        <path id="Path_2" data-name="Path 2" d="M2184.776,586.032l-395.77,395.175a93.067,93.067,0,0,1-131.714-131.52l517.721-516.939a92.9,92.9,0,0,0,0-131.516l0,0a93.239,93.239,0,0,0-131.714,0L1436.4,807.215A93.066,93.066,0,0,1,1304.684,675.7l517.721-516.943A93.066,93.066,0,0,0,1690.692,27.24l-383.177,382.6" fill="none" stroke="#15b7ee" stroke-miterlimit="10" stroke-width="1.116"/>
+      </g>
+    </g>
+  </g>
+</svg>

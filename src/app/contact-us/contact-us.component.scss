@@ -1,0 +1,161 @@
+#software-development {
+    .transform {
+      transform: translateY(-150px);
+      overflow: hidden;
+      @media screen and (max-width: 1000px) {
+        transform: translateY(-120px);
+      }
+    }
+    .card1 {
+      border: 0;
+      background-color: #14b7ed;
+      border-radius: 0;
+      .btn {
+        font-family: "Myriad-Pro-Regular";
+        border: 1px solid #fff;
+        font-size: 22px;
+        border-radius: 0;
+        @media screen and (max-width: 768px) {
+          font-size: 15px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      h6 {
+        color: white;
+        font-size: 20px;
+        font-family: "Myriad-Pro-Regular";
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 15px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      h1 {
+        color: white;
+        font-size: 50px;
+        font-family: "Myriad-Pro-Regular";
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 35px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      h4 {
+        color: white;
+        font-size: 22px;
+        font-family: "Myriad-Pro-Regular";
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 19px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      p {
+        color: white;
+        font-size: 22px;
+        font-family: "Myriad-Pro-Light";
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 18px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      a {
+        color: white;
+        font-size: 18px;
+        font-family: "Myriad-Pro-Light";
+        color: white;
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+    }
+    .transform h5 {
+      position: relative;
+      color: black !important;
+      font-size: 35px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+        line-height: 20px !important;
+        text-align: center;
+      }
+    }
+    .read-more {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      background-color: #1d1d1d;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      @media screen and (max-width: 768px) {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .min-h {
+      min-height: 320px;
+    }
+    .bg-img {
+    
+      background-image: url(../../assets/images/Vector-Smart-Object.svg);
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    form {
+      .min-w {
+        min-width: 150px;
+      }
+      input {
+        box-shadow: 0 !important;
+        $input-focus-box-shadow: red;
+        box-shadow: none !important; /* Important to override Bootstrap's default styles */
+        border-color: #e5e3e3;
+        border-radius: 5px;
+        background-color: #f1eded;
+      }
+      ::placeholder {
+        opacity: 0.7;
+      }
+      #Message {
+        border-color: #e5e3e3;
+        border-radius: 5px;
+        background-color: #f1eded;
+      }
+      textarea {
+        box-shadow: none;
+      }
+      .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #14B7ED;
+        --bs-btn-border-color: #14B7ED;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #0b5ed7;
+        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #0a58ca;
+        --bs-btn-active-border-color: #0a53be;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #14B7ED;
+        --bs-btn-disabled-border-color: #14B7ED;
+    }
+    }
+    input[type="checkbox"]:checked {
+      background-color: #14B7ED; /* Background color for checked checkbox */
+    }
+    input[type="checkbox"] {
+      width: 25px;
+      height: 25px;
+    }
+  }

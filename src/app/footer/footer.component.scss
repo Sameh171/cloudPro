@@ -1,0 +1,79 @@
+@import "../../styles.scss";
+
+footer{
+    background-color: #091D3E;
+    #footer-sec1 {
+        ::placeholder{
+            color: #5C5C5C;
+        }
+        .btn-primary {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #14B7ED;
+            --bs-btn-border-color: #14B7ED;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #06a0d4;
+            --bs-btn-hover-border-color: #0a58ca;
+            --bs-btn-focus-shadow-rgb: 49, 132, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #0794c3;
+            --bs-btn-active-border-color: #0a53be;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: #14B7ED;
+            --bs-btn-disabled-border-color: #14B7ED;
+        }
+        h4 {
+            font-size: 32px;
+            font-family: "Myriad-Pro-Regular";
+            @media screen and (max-width: 768px) {
+              font-size: 20px;
+              line-height: 31px !important;
+              text-align: center;
+            }
+          }
+        p {
+            font-size: 12px;
+            font-family: "Myriad-Pro-Light";
+            line-height: 22px !important;
+            @media screen and (max-width: 768px) {
+              font-size: 8px;
+              line-height: 31px !important;
+              text-align: center;
+            }
+          }
+          input{
+              background-color: white;
+              color: #5C5C5C;
+          }
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #34485C;
+    }
+    .card {
+        background-color: inherit !important;
+        .email {
+          color: #14B7ED !important;
+          a {
+            color: #14B7ED !important;
+          }
+        }
+        p {
+          color: white ;
+          font-size: 16px;
+        }
+        h4 {
+            font-size: 22px;
+            color: white;
+            font-family: "Myriad-Pro-Regular";
+          }
+        a {
+            font-size: 16px;
+            font-family: "Myriad-Pro-Light";
+            color: white;
+          }
+    }
+
+}

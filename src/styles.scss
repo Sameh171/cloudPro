@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+$primaryColor1: #08062e;
+
+$primaryColor2: #121244;
+
+$primaryColor2: #5f438f;
+
+$primaryBtnColor1: #14B7ED;
+
+$primaryBtnColor2: #fbee1e;
+
+$primaryBtnColor3: #074975;
+
+$primaryBtnColor4: #34485c;
+
+$primaryBtnColor5: #ff6600cc;
+
+$primaryTextColor1: #252525;
+
+$primaryTextColor2: #000000;
+
+$primaryTextColor3: #34485c;
+
+$primaryTextColor4: #074975;
+
+$primaryTextColor5: #2d4356;
+
+$primaryTextColor6: #798071;
+
+$primaryTextColor7: #c09300;
+
+$secondaryColor1: rgba(7, 73, 117, 0.68);
+
+$secondaryColor2: #c09300;
+
+$secondaryColor3: #d9d9d9;
+
+$secondaryColor4: #e63d24;
+
+$secondaryColor5: #e6edf1;
+
+$secondaryColor6: #f3f3f3;
+
+$secondaryColor7: #004975e3;
+
+a {
+  cursor: pointer;
+}
+@font-face {
+  font-family: "Myriad-Pro-Black";
+  src: url(assets/webFonts/Myriad-Pro-Black.otf) format("truetype");
+}
+@font-face {
+  font-family: "Myriad-Pro-Bold";
+  src: url(assets/webFonts/Myriad-Pro-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Myriad-Pro-Regular";
+  src: url(assets/webFonts/Myriad-Pro-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Myriad-Pro-Light";
+  src: url(assets/webFonts/Myriad-Pro-Light.otf) format("truetype");
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 32px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,484 @@
+@import "../../styles.scss";
+
+#sec2 {
+  background-image: url(../../assets/images/Clip-2.svg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  .bg-color {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -122;
+    background-color: $primaryBtnColor1;
+    opacity: 1;
+  }
+  .row {
+    transform: translateY(-48px);
+  }
+  .card {
+    min-height: 350px;
+    border-radius: 0;
+    border: 0;
+    background-color: #fff !important;
+    padding: 40px 10px 40px 10px;
+    .card-header {
+      background-color: #fff !important;
+      border: 0;
+      @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    p {
+      font-family: "Myriad-Pro-Regular";
+      color: #000;
+      font-size: 25px;
+      line-height: 50px !important;
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+        width: 100% !important;
+      }
+    }
+  }
+  .read-more {
+    display: block;
+    background-color: #1d1d1d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+  .text {
+    position: relative;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+    .img1 {
+      position: absolute;
+      top: 0;
+      left: -2%;
+      transform: translate(-50%, -40%);
+      height: 200px;
+      @media screen and (max-width: 768px) {
+        left: 3%;
+      }
+    }
+    p {
+      font-family: "Myriad-Pro-Regular";
+      font-size: 25px;
+      color: #fff;
+    }
+    .img2 {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      height: 200px;
+      transform: translate(-50%, 50%);
+    }
+  }
+  .btn {
+    font-family: "Myriad-Pro-Regular";
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 0;
+  }
+}
+
+#sec3 {
+  background-image: url(../../assets/images/Rectangle-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h3 {
+    color: black;
+    font-size: 40px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+  }
+  h6 {
+    color: #616161;
+    font-size: 18px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+    span {
+      color: black;
+      display: flex;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+  }
+  .card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  .card {
+    transition: all 0.5s ease;
+    min-height: 600px;
+    border: 0;
+    border-radius: 0;
+    .card-header {
+      h3 {
+        color: black;
+        font-size: 32px;
+        font-family: "Myriad-Pro-Regular";
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      .card-body {
+        p {
+          font-family: "Myriad-Pro-Regular";
+          color: #000;
+          font-size: 25px;
+          line-height: 50px !important;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+            text-align: center;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+  .read-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #1d1d1d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+}
+#sec4 {
+  background-color: #091d3e;
+  span {
+    font-family: "Myriad-Pro-Light";
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px !important;
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
+      text-align: center;
+      width: 100% !important;
+    }
+  }
+  h3 {
+    font-family: "Myriad-Pro-Regular";
+    font-size: 45px;
+    line-height: 50px !important;
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
+      line-height: 15px !important;
+      text-align: center;
+      width: 100% !important;
+    }
+  }
+  p {
+    font-family: "Myriad-Pro-Light";
+    color: #000;
+    font-size: 25px;
+    line-height: 35px !important;
+    @media screen and (max-width: 768px) {
+      line-height: 15px !important;
+      font-size: 7px;
+      text-align: center;
+      width: 100% !important;
+    }
+  }
+  h3,
+  p,
+  span {
+    color: white;
+  }
+  .read-more {
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+    border: 1px solid white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transition: all 0.5 ease;
+  }
+  .read-more:hover {
+    border: 0;
+    background-color: #14b7ed;
+  }
+  .bg-img {
+    background-image: url(../../assets/images/engineer.svg);
+    background-position: center center;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .card {
+    background-color: #091d3e;
+    .card-header {
+      min-height: 280px;
+      @media screen and (max-width: 768px) {
+        min-height: 150px;
+      }
+    }
+  }
+}
+#sec5 {
+  h3 {
+    color: black;
+    font-size: 40px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+  }
+  h6 {
+    color: #616161;
+    font-size: 18px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+    span {
+      color: black;
+      display: flex;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+  }
+  .card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  .card {
+    background-color: #f1f5fe;
+    transition: all 0.5s ease;
+    min-height: 600px;
+    border: 0;
+    border-radius: 0;
+    .card-header {
+      background-color: transparent;
+      border: 0;
+      min-height: 350px;
+      h3 {
+        color: black;
+        font-size: 32px;
+        font-family: "Myriad-Pro-Regular";
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+      .card-body {
+        p {
+          font-family: "Myriad-Pro-Regular";
+          color: #000;
+          font-size: 25px;
+          line-height: 50px !important;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+            text-align: center;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+  .read-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #1d1d1d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+}
+#sec6 {
+    background-color: #091D3E;
+    h4,h3,p {
+        color: white;
+    }
+    h3 {
+        color: white;
+        font-size: 40px;
+        font-family: "Myriad-Pro-Regular";
+        line-height: 40px !important;
+        @media screen and (max-width: 768px) {
+          font-size: 30px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+    h4 {
+        color: white;
+        font-size: 30px;
+        font-family: "Myriad-Pro-Regular";
+        @media screen and (max-width: 768px) {
+          font-size: 22px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+    h5 {
+        color: white;
+        font-size: 30px;
+        font-family: "Myriad-Pro-Regular";
+        @media screen and (max-width: 768px) {
+          font-size: 22px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+    p {
+        color: white;
+        font-size: 20px;
+        font-family: "Myriad-Pro-light";
+        line-height: 25px !important;
+        @media screen and (max-width: 768px) {
+          font-size: 15px;
+          text-align: center;
+        }
+      }
+    .read-more {
+        display: block;
+        background-color: #14B7ED;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        transition: all 0.5 ease;
+      }
+      .line{
+        background-color: #14B7ED;
+        width: 1px;
+        height: 75px;
+      }
+}
+#sec7 {
+  background-image: url(../../assets/images/Rectangle-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .img-h {
+    height: 200px;
+  }
+  h3 {
+    color: black;
+    font-size: 40px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+  }
+  h6 {
+    color: #616161;
+    font-size: 28px;
+    font-family: "Myriad-Pro-Regular";
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 31px !important;
+      text-align: center;
+    }
+    span {
+      color: black;
+      display: flex;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 13px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+  }
+  // .card:hover {
+  //   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  // }
+  .card {
+    transition: all 0.5s ease;
+    min-height: 600px;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    .card-header {
+      min-height: 320px;
+      h3 {
+        color: black;
+        font-size: 32px;
+        font-family: "Myriad-Pro-Regular";
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+          line-height: 31px !important;
+          text-align: center;
+        }
+      }
+    }
+    .card-body {
+      p {
+        font-family: "Myriad-Pro-Light";
+        color: #000;
+        font-size: 18px;
+        line-height: 28px !important;
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          text-align: center;
+          width: 100% !important;
+        }
+      }
+      .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #14B7ED;
+        --bs-btn-border-color: #14B7ED;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #06a0d4;
+        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #0794c3;
+        --bs-btn-active-border-color: #0a53be;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #14B7ED;
+        --bs-btn-disabled-border-color: #14B7ED;
+    }
+    }
+  }
+  .read-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #1d1d1d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+}

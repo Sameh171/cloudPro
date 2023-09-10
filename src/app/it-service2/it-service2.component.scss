@@ -1,0 +1,152 @@
+#it-service2 {
+  .transform {
+    transform: translateY(-150px);
+    overflow: hidden;
+    @media screen and (max-width: 1000px) {
+      transform: translateY(-120px);
+    }
+  }
+  .card1 {
+    border: 0;
+    background-color: #14b7ed;
+    border-radius: 0;
+    .btn {
+      font-family: "Myriad-Pro-Regular";
+      border: 1px solid #fff;
+      font-size: 22px;
+      border-radius: 0;
+      @media screen and (max-width: 768px) {
+        font-size: 15px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+    h6 {
+      color: white;
+      font-size: 20px;
+      font-family: "Myriad-Pro-Regular";
+      color: white;
+      @media screen and (max-width: 768px) {
+        font-size: 15px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 50px;
+      font-family: "Myriad-Pro-Regular";
+      color: white;
+      @media screen and (max-width: 768px) {
+        font-size: 35px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+    h4 {
+      color: white;
+      font-size: 22px;
+      font-family: "Myriad-Pro-Regular";
+      color: white;
+      @media screen and (max-width: 768px) {
+        font-size: 19px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+    p {
+      color: white;
+      font-size: 22px;
+      font-family: "Myriad-Pro-Light";
+      color: white;
+      @media screen and (max-width: 768px) {
+        font-size: 18px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+    a {
+      color: white;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Light";
+      color: white;
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 31px !important;
+        text-align: center;
+      }
+    }
+  }
+  .row {
+    border-bottom: 1px solid #000;
+  }
+  .border-left::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    width: 1px;
+    height: 100%;
+    transform: translateX(50%);
+  }
+  .card-2 {
+    h3 {
+      position: relative;
+      color: black !important;
+      font-size: 22px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 10px;
+        line-height: 20px !important;
+        text-align: center;
+      }
+    }
+    h3::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      height: 3px;
+      width: 35%;
+      background-color: #14b7ed ;
+    }
+    p {
+      color: black !important;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 5px;
+        line-height: 20px !important;
+        text-align: center;
+      }
+    }
+    a {
+      align-self: flex-start;
+      font-size: 18px;
+      font-family: "Myriad-Pro-Regular";
+      @media screen and (max-width: 768px) {
+        font-size: 8px;
+        line-height: 20px !important;
+        text-align: center;
+        img {
+          width: 20%;
+          margin-left: 5px !important;
+        }
+      }
+    }
+  }
+  .read-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #1d1d1d;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    @media screen and (max-width: 768px) {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
