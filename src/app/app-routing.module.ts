@@ -8,7 +8,8 @@ import { SoftwareDevelopmentComponent } from './software-development/software-de
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
-  {path:'', component:LandingPageComponent},
+  {path:'' ,redirectTo: 'landing' , pathMatch : 'full' },
+  {path:'landing', component:LandingPageComponent},
   {path:'it-service', component:ItServiceComponent},
   {path:'it-service2', component:ItService2Component},
   {path:'cloud-computing', component:CloudComputingComponent},
@@ -19,7 +20,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes , {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

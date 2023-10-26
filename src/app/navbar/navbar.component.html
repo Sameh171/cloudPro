@@ -1,32 +1,34 @@
-<div
-  class="bg"
-  [class]="height === 'sec-height1' ? 'sec-height1' : 'sec-height2'"
-  [class]="
-    image == 'landing-img'
-      ? 'landing-img'
-      : image == 'it-service'
-      ? 'it-service'
-      : image == 'it-service2'
-      ? 'it-service2'
-      : image == 'cloud-computing'
-      ? 'cloud-computing'
-      : image == 'softwar-development'
-      ? 'softwar-development'
-      : image == 'contact-us'
-      ? 'contact-us'
-      : ''
-  "
->
-  <nav
-    class="navbar navbar-expand-md "
-    [class]="
+  <swiper-container class="mySwiper"  #mySwiper [config]="swiperConfig"  (slidechange)="slideChange($event)">
+    <swiper-slide>
+      <div
+      class="bg"
+      [class]="height === 'sec-height1' ? 'sec-height1' : 'sec-height2'"
+      [class]="
+        image == 'landing-img'
+          ? 'landing-img'
+          : image == 'it-service'
+          ? 'it-service'
+          : image == 'it-service2'
+          ? 'it-service2'
+          : image == 'cloud-computing'
+          ? 'cloud-computing'
+          : image == 'softwar-development'
+          ? 'softwar-development'
+          : image == 'contact-us'
+          ? 'contact-us'
+          : ''
+      "
+      >
+      <nav
+      class="navbar navbar-expand-md "
+      [class]="
        image == 'contact-us'
         ? 'bg-black'
         : 'bg-transparent'
-    "
-  >
-    <div class="container">
-      <a routerLink=""
+      "
+      >
+      <div class="container">
+      <a routerLink="/landing"
         ><img src="assets/images/Logo.svg" class="logo" alt=""
       /></a>
       <button
@@ -46,15 +48,7 @@
         >
           <li class="nav-item">
             <a class="nav-link active me-3" routerLink="" aria-current="page"
-              ><span>About</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active me-3"
-              routerLink="/cloud-computing"
-              aria-current="page"
-              ><span>Solutions</span></a
+              ><span>Home</span></a
             >
           </li>
           <li class="nav-item">
@@ -68,11 +62,19 @@
           <li class="nav-item">
             <a
               class="nav-link active me-3"
+              routerLink="/cloud-computing"
+              aria-current="page"
+              ><span>About Us</span></a
+            >
+          </li>    
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link active me-3"
               routerLink="/software-development"
               aria-current="page"
               ><span>Our Clients</span></a
             >
-          </li>
+          </li> -->
           <li class="nav-item">
             <a
               class="nav-link active me-3"
@@ -83,18 +85,224 @@
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
-  <div class="container">
-    <div
-      id="sec1"
-      class="d-flex justify-content-center align-items-start flex-column"
-    >
-      <h3 *ngIf="header">{{ header }}</h3>
-      <p *ngIf="text" class="w-50 my-5">
-        {{ text }}
-      </p>
-      <a *ngIf="button" href="" class="btn btn-bg px-4 py-2">Our Services</a>
-    </div>
-  </div>
-</div>
+      </div>
+      </nav>
+              <div class="container">
+              <div
+              id="sec1"
+              class="d-flex justify-content-center align-items-start flex-column"
+            >
+              <h3 class="d-none" *ngIf="header">{{ header }}</h3>
+              <p *ngIf="text" class="w-50 my-5">
+                {{ text }}
+              </p>
+              <a *ngIf="button" routerLink="/it-service" class="btn btn-bg px-4 py-2">Our Services</a>
+            </div>
+            </div>
+            </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div
+      class="bg"
+      [class]="height === 'sec-height1' ? 'sec-height1' : 'sec-height2'"
+      [class]="
+        image == 'landing-img'
+          ? 'landing-img2'
+          : image == 'it-service'
+          ? 'it-service'
+          : image == 'it-service2'
+          ? 'it-service2'
+          : image == 'cloud-computing'
+          ? 'cloud-computing'
+          : image == 'softwar-development'
+          ? 'softwar-development'
+          : image == 'contact-us'
+          ? 'contact-us'
+          : ''
+      "
+      >
+      <nav
+      class="navbar navbar-expand-md "
+      [class]="
+       image == 'contact-us'
+        ? 'bg-black'
+        : 'bg-transparent'
+      "
+      >
+      <div class="container">
+      <a routerLink="/landing"
+        ><img src="assets/images/Logo.svg" class="logo" alt=""
+      /></a>
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars" style="color: white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul
+          class="navbar-nav mt-2 mt-lg-0 pt-4 d-flex justify-content-end align-items-center flex-column flex-md-row w-100"
+        >
+          <li class="nav-item">
+            <a class="nav-link active me-3" routerLink="" aria-current="page"
+              ><span>Home</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/it-service"
+              aria-current="page"
+              ><span>Services</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/cloud-computing"
+              aria-current="page"
+              ><span>About Us</span></a
+            >
+          </li>    
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/software-development"
+              aria-current="page"
+              ><span>Our Clients</span></a
+            >
+          </li> -->
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/contact"
+              aria-current="page"
+              ><span>Contact Us</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      </div>
+      </nav>
+              <div class="container">
+              <div
+              id="sec1"
+              class="d-flex justify-content-center align-items-start flex-column"
+            >
+              <h3 class="d-none" *ngIf="header">{{ header }}</h3>
+              <p *ngIf="text" class="w-50 my-5">
+                {{ text }}
+              </p>
+              <a *ngIf="button" routerLink="/it-service" class="btn btn-bg px-4 py-2">cotact us</a>
+            </div>
+            </div>
+            </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div
+      class="bg"
+      [class]="height === 'sec-height1' ? 'sec-height1' : 'sec-height2'"
+      [class]="
+        image == 'landing-img'
+          ? 'landing-img'
+          : image == 'it-service'
+          ? 'it-service'
+          : image == 'it-service2'
+          ? 'it-service2'
+          : image == 'cloud-computing'
+          ? 'cloud-computing'
+          : image == 'softwar-development'
+          ? 'softwar-development'
+          : image == 'contact-us'
+          ? 'contact-us'
+          : ''
+      "
+      >
+      <nav
+      class="navbar navbar-expand-md "
+      [class]="
+       image == 'contact-us'
+        ? 'bg-black'
+        : 'bg-transparent'
+      "
+      >
+      <div class="container">
+      <a routerLink="/landing"
+        ><img src="assets/images/Logo.svg" class="logo" alt=""
+      /></a>
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars" style="color: white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul
+          class="navbar-nav mt-2 mt-lg-0 pt-4 d-flex justify-content-end align-items-center flex-column flex-md-row w-100"
+        >
+          <li class="nav-item">
+            <a class="nav-link active me-3" routerLink="" aria-current="page"
+              ><span>Home</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/it-service"
+              aria-current="page"
+              ><span>Services</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/cloud-computing"
+              aria-current="page"
+              ><span>About Us</span></a
+            >
+          </li>    
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/software-development"
+              aria-current="page"
+              ><span>Our Clients</span></a
+            >
+          </li> -->
+          <li class="nav-item">
+            <a
+              class="nav-link active me-3"
+              routerLink="/contact"
+              aria-current="page"
+              ><span>Contact Us</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      </div>
+      </nav>
+              <div class="container">
+              <div
+              id="sec1"
+              class="d-flex justify-content-center align-items-start flex-column"
+            >
+              <h3 class="d-none" *ngIf="header">{{ header }}</h3>
+              <p *ngIf="text" class="w-50 my-5">
+                {{ text }}
+              </p>
+              <a *ngIf="button" routerLink="/it-service" class="btn btn-bg px-4 py-2">Our Services</a>
+            </div>
+            </div>
+            </div>
+    </swiper-slide>
+  </swiper-container>

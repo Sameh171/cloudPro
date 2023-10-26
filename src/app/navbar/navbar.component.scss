@@ -1,3 +1,4 @@
+@import '../../../node_modules/swiper/swiper-bundle.min.css';
 @import "../../styles.scss";
 .sec-height1 {
   min-height: 100vh;
@@ -7,6 +8,12 @@
 }
 .landing-img {
   background-image: url(../../assets/images/image24.svg);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+.landing-img2 {
+  background-image: url(../../assets/images/image25.svg);
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -61,6 +68,7 @@
     #sec1 {
       min-height: 82vh;
       h3 {
+        display: none;
         color: white;
         font-size: 65px;
         font-family: "Myriad-Pro-Regular";
@@ -97,3 +105,5 @@
       }
     }
   }
+
+

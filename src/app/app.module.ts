@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {  CUSTOM_ELEMENTS_SCHEMA , NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,10 @@ import { ItService2Component } from './it-service2/it-service2.component';
 import { CloudComputingComponent } from './cloud-computing/cloud-computing.component';
 import { SoftwareDevelopmentComponent } from './software-development/software-development.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+// import function to register Swiper custom elements
+import { register } from 'swiper/element/bundle';
+// register Swiper custom elements
+register();
 
 @NgModule({
   declarations: [
@@ -25,7 +29,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ItService2Component,
     CloudComputingComponent,
     SoftwareDevelopmentComponent,
-    ContactUsComponent
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +40,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
